@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cesium</title> 
+  <script src="./Build/Build/CesiumUnminified/Cesium.js"></script>
+  <script src="http://api.tianditu.gov.cn/api?v=4.0&tk=06977eb43fa2c6230c7556ca994c2791" type="text/javascript"></script>
+  <script src="./program/tdtmap.js"></script>
+  <style>
+    @import url(./Build/Build/Cesium/Widgets/widgets.css);
+  </style>
+</head>
+<body onLoad="onLoad()">
+<div id="mapDiv"></div>
+<div style="position:absolute;left:520px;">
+</div>
+</body>
+<body> 
+  <div id="cesiumContainer">
+    <script src="./program/mapsurface.js"></script>
+  </div>
+</body>
+
+</html>
